@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon icon  -->
+    <link rel="shortcut icon" href="./images/icons8-portfolio-48.png" type="image/x-icon">
+    <title>My Portfolio</title>
+
+    <!-- font awesome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css file  -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-query.css">
+
+    <!-- Aos css animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- navbar section  -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/">Portfolio</a>
+        </div>
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-bars"></i>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- banner section  -->
+    <section class="banner" id="banner">
+        <h3>I'm <br /><span>jay isamaliya</span><br /> Web developer </h3>
+    </section>
+
+    <!-- about section  -->
+    <section class="about" id="about">
+
+        <h1 class="heading">About Me</h1>
+        <div class="about-column">
+            <div class="about-img-container" data-aos="fade-left">
+                <img src="./images/t2.jpg">
+            </div>
+            <div class="about-me" data-aos="fade-right">
+                <h3>My Story</h3>
+                <p>Web devloper, <br>
+                    Currently, 4th year of B.Texh. in Computer Science at parul university, vadodara. <br>
+                    I'm learning and creating project in JS/ReactJS from past several months.<br>
+                    I've basic knowledge of NodeJS/ExpressJS too. I have made some api in backend also.<br>
+                    And I have 6+ months of professional experience too.<br>
+                    right now I am looking for more oppertunity in web devlopement area to devlop and learn new
+                    things.<br>
+                </p>
+                <a href="./Resume.pdf" class="download-resume" download="jay_isamaliya_resume">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill section  -->
+    <section class="skills" id="skills">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="left-blob">
+            <path fill="#7C4D2D"
+                d="M36.2,-56.6C49.8,-54.8,65.7,-51,71.5,-41.2C77.2,-31.4,72.8,-15.7,67.3,-3.2C61.8,9.4,55.3,18.8,50.8,30.7C46.3,42.7,43.9,57.3,35.8,65C27.6,72.7,13.8,73.5,-0.4,74.3C-14.7,75,-29.3,75.6,-41.5,70.2C-53.6,64.8,-63.2,53.4,-66.9,40.7C-70.5,28,-68.2,14,-65.9,1.3C-63.6,-11.4,-61.3,-22.7,-58.2,-36.4C-55.2,-50.2,-51.4,-66.3,-41.6,-70.3C-31.8,-74.3,-15.9,-66.1,-2.3,-62.1C11.3,-58.2,22.6,-58.4,36.2,-56.6Z"
+                transform="translate(100 100)" />
+        </svg>
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="right-blob">
+            <path fill="#000"
+                d="M45.1,-71.8C58.8,-70.1,70.5,-58.8,78.9,-45.2C87.2,-31.7,92.1,-15.8,86,-3.5C79.9,8.8,62.8,17.6,54.2,30.8C45.7,44,45.7,61.7,38.1,70.2C30.5,78.8,15.3,78.3,-0.1,78.4C-15.4,78.5,-30.8,79.3,-45.1,74.6C-59.4,69.9,-72.5,59.7,-80.3,46.3C-88.1,33,-90.5,16.5,-86.1,2.5C-81.8,-11.5,-70.7,-22.9,-60.5,-32.1C-50.3,-41.3,-41.1,-48.2,-31.1,-52.1C-21.2,-56,-10.6,-56.8,2.5,-61.2C15.7,-65.6,31.3,-73.5,45.1,-71.8Z"
+                transform="translate(100 100)" />
+        </svg>
+        <h1 class="heading">Skills</h1>
+        <div class="skills-container">
+            <ul>
+                <li data-aos="zoom-in" data-aos-delay="100">
+                    <p>Html</p>
+                    <input type="range" value="85">
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="200">
+                    <p>css</p>
+                    <input type="range" name="css" id="css" value="85">
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="300">
+                    <p>javascript</p>
+                    <input type="range" name="js" id="js" value="75">
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="400">
+                    <p>reactjs</p>
+                    <input type="range" name="reactjs" id="reactjs" value="70">
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="500">
+                    <p>nodejs</p>
+                    <input type="range" name="nodejs" id="nodejs" value="60">
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="600">
+                    <p>expressjs</p>
+                    <input type="range" name="expressjs" id="expressjs" value="60">
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- projects section  -->
+    <section class="projects" id="projects">
+
+        <h1 class="heading">My Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="https://github.com/jay107/my-portfolio-website" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/project3.png" alt="">
+                </a>
+                <div class="project-info">
+                    <h4>Portfolio Website</h4>
+                    <p>Technology used: HTML, CSS, JS</p>
+                    <p>Status: Completed</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/jay107/youtubeClone" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/project4.png" alt="">
+                </a>
+                <div class="project-info">
+                    <h4>Youtube Home Page</h4>
+                    <p>Technology used: ReactJS, CSS, Youtube API</p>
+                    <p>Status: Ongoing</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/jay107/NewsApp" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/project6.png" alt="">
+                </a>
+                <div class="project-info">
+                    <h4>News App</h4>
+                    <p>Technology used: ReactJS, CSS, NewsAPI</p>
+                    <p>Status: Completed</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/jay107/signUpPage" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/project92.png" alt="">
+                </a>
+                <div class="project-info">
+                    <h4>Signup Page</h4>
+                    <p>Technology used: ReactJS, ExpressJS, CSS</p>
+                    <p>Status: Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section  -->
+    <section class="services" id="services">
+        <h1 class="heading">Services</h1>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="./images/web-design.png" alt="">
+                <h2>web designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae dolorum quisquam ex
+                    nesciunt vero
+                    possimus
+                </p>
+            </div>
+            <div class="service-card">
+                <img src="./images/app-development.png" alt="">
+                <h2>Web developement</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut neque cum quisquam impedit eum
+                    distinctio
+                </p>
+            </div>
+            <div class="service-card">
+                <img src="./images/server.png" alt="">
+                <h2>Backend developement</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam cumque, ipsam deleniti
+                    cupiditate
+                    repudiandae !</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact</h1>
+        <div class="contact-column">
+            <div class="connect-me">
+                <h1 class="heading contact-heading connect-me-heading">Connet Me</h1>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope" data-aos="fade-up-right" data-aos-delay="300"></i>
+                        <a target="_blank" href="mailto:jayisamaliya77@gmail.com" data-aos="fade-up-left" data-aos-delay="300">jayisamaliya77@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone" data-aos="fade-up-right" data-aos-delay="300"></i>
+                        <a href="tel:+917069596952" target="_blank" rel="noopener noreferrer" data-aos="fade-up-left" data-aos-delay="300">+917069596952</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot" data-aos="fade-up-right" data-aos-delay="300"></i>
+                        <a href="#" data-aos="fade-up-left" data-aos-delay="300">Surat, Gujrat, India.</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-github" data-aos="fade-up-right" data-aos-delay="300"></i>
+                        <a href="http://github.com/jay107" target="_blank" rel="noopener noreferrer" data-aos="fade-up-left" data-aos-delay="300">Github</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin" data-aos="fade-up-right" data-aos-delay="300"></i>
+                        <a href="https://www.linkedin.com/in/jay-isamaliya" target="_blank"
+                            rel="noopener noreferrer" data-aos="fade-up-left" data-aos-delay="300">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="message-me">
+                <h1 class="heading contact-heading">Message me</h1>
+                <form action="/">
+                    <ul>
+                        <li>
+                            <p data-aos="fade-up-right" data-aos-delay="300">Name: </p>
+                            <input type="name" required data-aos="fade-up-left" data-aos-delay="300">
+                        </li>
+                        <li>
+                            <p data-aos="fade-up-right" data-aos-delay="300">Email: </p>
+                            <input type="email" name="" id="email" required data-aos="fade-up-left" data-aos-delay="300">
+                        </li>
+                        <li>
+                            <p data-aos="fade-up-right" data-aos-delay="300">Phone: </p>
+                            <input type="number" required data-aos="fade-up-left" data-aos-delay="300">
+                        </li>
+                        <li>
+                            <p data-aos="fade-up-right" data-aos-delay="300">Message: </p>
+                            <textarea name="message" id="message" cols="17" rows="4" data-aos="fade-up-left" data-aos-delay="300"></textarea>
+                        </li>
+                    </ul>
+                    <button type="submit">send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer class="footer" id="footer">
+        <div class="social-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-discord"></i>
+        </div>
+        <div class="footer-para">
+            copyright &#169; 2022 My Portfolio Website | Made by JAY ISAMALIYA
+        </div>
+    </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+/* // css for tablet */
+
+@media (max-width: 1024px) {
+    body {
+        background: gray;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .banner {
+        background: url("./images/5651981.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .banner h3 {
+        font-size: 50px;
+        margin-top: 200px;
+    }
+
+    .heading {
+        margin-bottom: 40px;
+    }
+
+    /* about section styling  */
+    .about-column {
+        flex-direction: column;
+    }
+
+    .about .about-img-container {
+        margin-bottom: 30px;
+    }
+
+    .about .about-me {
+        width: 80%;
+    }
+
+    /* skills section styling  */
+    .skills .left-blob,
+    .skills .right-blob {
+        width: 300px;
+    }
+
+    .skills ul li p {
+        font-size: 20px;
+    }
+
+    .skills ul li input[type="range"] {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    /* project section styling  */
+    .projects .project-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+.project-card img{
+    margin: 10px;
+}
+    /* services section style  */
+    .services-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services-container .service-card {
+        margin-bottom: 20px;
+    }
+
+    /* contact section style  */
+    .contact-column {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .contact-heading {
+        text-align: center;
+    }
+
+    .connect-me-heading {
+        display: none;
+        margin: 50px 0;
+    }
+
+    .connect-me ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .connect-me ul li {
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    .message-me ul {
+        width: 100%;
+    }
+
+    .message-me form ul li {
+        margin-left: 20%;
+    }
+
+    .message-me form button {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background: url("./images/5651981.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .about-me h3 {
+        font-size: 26px;
+    }
+
+    .about .about-me h3::after {
+        height: 3px;
+    }
+
+    .about-me p {
+        letter-spacing: 1px;
+    }
+
+    .about .download-resume{
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    }
+   .skills .left-blob {
+      display: none;
+   }
+
+   .skills .right-blob {
+      display: none;
+   }
+   .skills ul p{
+    margin-left: 10%;
+    font-size: 20px;
+   }
+   .skills ul li input[type='range']{
+    margin-right: 10%;
+   }
+   .project-info h4{
+   line-height: 30px;
+   }
+   .service-card h2{
+    line-height: 30px;
+   }    
+   .connect-me ul li{
+    margin-left: 5%;
+    font-size: 20px;
+    letter-spacing: 1px;
+   }
+  .footer .footer-para{
+    line-height: 20px;
+  }
+}
